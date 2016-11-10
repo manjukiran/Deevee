@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C233CC6B1DD532D800A75FF2 /* doctor_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C233CC6A1DD532D800A75FF2 /* doctor_icon.png */; };
 		C2B6F6771DD52B6D00E2A86A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B6F6761DD52B6D00E2A86A /* main.m */; };
 		C2B6F67A1DD52B6D00E2A86A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B6F6791DD52B6D00E2A86A /* AppDelegate.m */; };
 		C2B6F67D1DD52B6D00E2A86A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B6F67C1DD52B6D00E2A86A /* ViewController.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C233CC6A1DD532D800A75FF2 /* doctor_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doctor_icon.png; path = Images/doctor_icon.png; sourceTree = "<group>"; };
 		C2B6F6721DD52B6D00E2A86A /* Deevee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deevee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B6F6761DD52B6D00E2A86A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2B6F6781DD52B6D00E2A86A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C233CC691DD5327800A75FF2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C233CC6A1DD532D800A75FF2 /* doctor_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		C2B6F6691DD52B6D00E2A86A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		C2B6F6741DD52B6D00E2A86A /* Deevee */ = {
 			isa = PBXGroup;
 			children = (
+				C233CC691DD5327800A75FF2 /* Images */,
 				C2B6F6781DD52B6D00E2A86A /* AppDelegate.h */,
 				C2B6F6791DD52B6D00E2A86A /* AppDelegate.m */,
 				C2B6F67B1DD52B6D00E2A86A /* ViewController.h */,
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2B6F6881DD52B6D00E2A86A /* LaunchScreen.storyboard in Resources */,
+				C233CC6B1DD532D800A75FF2 /* doctor_icon.png in Resources */,
 				C2B6F6851DD52B6D00E2A86A /* Assets.xcassets in Resources */,
 				C2B6F6801DD52B6D00E2A86A /* Main.storyboard in Resources */,
 			);
@@ -304,6 +316,7 @@
 				C2B6F68E1DD52B6D00E2A86A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
